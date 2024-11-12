@@ -4,11 +4,17 @@ public class InheritanceTester {
 
     public static void main(String[] args){
 
-        Rectangle rectangle = new Rectangle();
+        Mother mom = new Mother();
+        mom.setName("Lilliana");
+
+        System.out.println(mom.getName());
+
+
+        /*Rectangle rectangle = new Rectangle();
         rectangle.print();
 
         Square square = new Square();
-        square.print("Square");
+        square.print("Square");*/
 
     }
 }
