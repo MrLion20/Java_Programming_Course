@@ -5,6 +5,7 @@ public class TextProcessor {
 
     public static void main (String[] args){
         countWords("I love Test Automation University");
+        reverseString("Hello TAU!");
     }
 
     /**
@@ -23,5 +24,10 @@ public class TextProcessor {
             System.out.println(word);
         }
 
+    }
+    public static void reverseString(String text){
+        for (int i=text.length()-1; i>=0; i--){
+            System.out.print(text.charAt(i));
+        }
     }
 }
